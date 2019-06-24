@@ -14,7 +14,7 @@ from styx_msgs.msg import Lane, TrafficLight, TrafficLightArray
 import time
 
 STATE_COUNT_THRESHOLD = 3
-LOOKAHEAD_WPS = 50
+LOOKAHEAD_WPS = 30
 
 class TLDetector(object):
     def __init__(self):
